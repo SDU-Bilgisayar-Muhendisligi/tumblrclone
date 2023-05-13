@@ -29,7 +29,8 @@ export default function NavBar() {
                     </form>
                 </section>
             </section>
-            <section className="nav-bar-right">
+            
+            {/* <section className="nav-bar-right">
                 <div className="navbar-links">
                     <li>
                         <Link to="/login">login</Link>
@@ -41,7 +42,8 @@ export default function NavBar() {
                         <Link to="/profile">profile</Link>
                     </li>
                 </div>
-            </section>
+            </section> */}
+            
         </div>
 
     
