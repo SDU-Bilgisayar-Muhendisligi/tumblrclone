@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css'
 
 import Navbar from './components/Navbar/Navbar';
-import HomePage from './components/pages/homePage';
-import LoginPage from './components/pages/login';
-import SignUpPage from './components/pages/signup';
-import Profile from './components/pages/profile';
+import HomePage from './pages/homePage';
+import LoginPage from './pages/login';
+import SignUpPage from './pages/signup';
+import Profile from './pages/profile';
 
 
 function App() {

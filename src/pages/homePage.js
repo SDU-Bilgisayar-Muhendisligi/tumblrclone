@@ -4,10 +4,14 @@ import styled from 'styled-components'
   
 const HomePage = () => {
   return (
-    <div>
-        <H1>Home Page</H1>
-    </div>
+    <section>
+      <div className="left-side">
+         <H1>Home Page</H1>
+      </div>
+      <div className="right-side">
 
+      </div>
+    </section>
   );
 };
 
