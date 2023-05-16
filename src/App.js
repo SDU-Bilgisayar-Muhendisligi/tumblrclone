@@ -7,6 +7,11 @@ import HomePage from './components/pages/homePage';
 import LoginPage from './components/pages/login';
 import SignUpPage from './components/pages/signup';
 import Profile from './components/pages/profile';
+import FollowingsPage from './components/pages/followingsPage/followingsPage';
+import LikesPage from './components/pages/likesPage/likesPage';
+import InboxPage from './components/pages/inboxPage/inboxPage';
+import UserPage from './components/pages/userPage/userPage';
+import SettingsPage from './components/pages/settingsPage/settingsPage';
 
 
 function App() {
@@ -15,10 +20,14 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route exact path='/' element={<HomePage />} />
-        <Route path='/login' element={<LoginPage />} />
+        <Route path='/' element={<HomePage />} />
+        
         <Route path='/profile' element={<Profile />} />
-        <Route path='/signup' element={<SignUpPage />} />
+        <Route path='/following' element={<FollowingsPage />} />
+        <Route path='/likes' element={<LikesPage />} />
+        <Route path='/inbox' element={<InboxPage />} />
+        <Route path='/user' element={<UserPage />} />
+        <Route path='/settings' element={<SettingsPage />} />
       </Routes>
     </Router>
     

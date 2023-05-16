@@ -1,0 +1,48 @@
+.partA{
+    display: flex;
+    
+}
+
+.partA p{
+  font-size: 18px;
+}
+
+
+.rightSideF {
+    background-color: rgb(38, 10, 65);
+    width: 30%;
+    margin-left: 10px;
+
+  }
+  
+.leftSideF {
+    background-color: rgb(38, 10, 65);
+    margin: 48px 10px;
+    width: 60%;
+  }
+
+  
+.search-barF {
+    background-color: #758494;
+    color: ghostwhite;
+    position: relative;
+    padding:8px 10px ;
+    font-size: 16px;
+    /* top: 5%;
+    left: 9%; */
+    height: 30px;
+    width: 300px;
+    border-radius: 3px;
+    border: none
+    
+  }
+  .search-barF:focus {
+    background-color: antiquewhite;
+    color: black;
+  }
+
+  
+  .search-barF::placeholder {
+    color: rgba(43, 43, 39, 0.685);
+    
+  }

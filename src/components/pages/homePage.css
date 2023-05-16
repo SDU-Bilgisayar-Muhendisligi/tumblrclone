@@ -3,7 +3,7 @@
     background-color: rgb(38, 10, 65);
     display: flex;
     justify-content: center;
-    margin: 0 10%
+    margin: 6% 10%
     
   }
 
@@ -15,7 +15,7 @@
   }
   
   .leftSide {
-    display: flex;
+    
     margin: 48px 10px;
 
     background-color: blue;

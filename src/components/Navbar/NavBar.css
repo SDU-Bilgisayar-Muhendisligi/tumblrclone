@@ -57,7 +57,7 @@
 }
 
 .searchNavBar {
-  padding-top: 2px;
+  padding-top: 5px;
   padding-bottom: 7px;
 }
 .search-bar {
@@ -68,8 +68,12 @@
   left: 9%; */
   height: 30px;
   width: 300px;
-  border-radius: .5rem;
+  border-radius: 3px;
   border: none
+}
+.search-bar:focus {
+  background-color: antiquewhite;
+  color: black;
 }
 
 .search-submit {
