@@ -1,0 +1,26 @@
+
+.homePageContainer {
+    background-color: rgb(38, 10, 65);
+    display: flex;
+    justify-content: center;
+    margin: 0 10%
+    
+  }
+
+  .rightSide {
+    margin-left: 10px;
+
+    background-color: blue;
+    width: 30%;
+  }
+  
+  .leftSide {
+    display: flex;
+    margin: 48px 10px;
+
+    background-color: blue;
+    width: 60%;
+  }
+
+
+  

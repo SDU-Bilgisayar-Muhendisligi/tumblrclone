@@ -1,21 +1,23 @@
 
 import React from 'react';
 import styled from 'styled-components'
+import './homePage.css'
   
 const HomePage = () => {
   return (
-    <div>
-        <H1>Home Page</H1>
-    </div>
-
+    <section className='homePageContainer'>
+      <div className='leftSide'>
+          <h1>left Page</h1>
+      </div>
+      <div className='rightSide'>
+        <h1>right Page</h1>
+      </div>
+    </section>
   );
 };
 
 
-const H1 = styled.h1`
-color: white;
 
-`
 
 
 export default HomePage;
