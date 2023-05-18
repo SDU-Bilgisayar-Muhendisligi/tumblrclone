@@ -46,3 +46,43 @@
     color: rgba(43, 43, 39, 0.685);
     
   }
+  .followingContainer{
+    margin-top: 14px;
+  }
+
+  .followed{
+    width: 100%;
+    min-width: 320px;;
+    max-width: 35rem;
+    height:54px;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    display:flex;
+    align-content: center;
+    align-items: center;
+    padding: 5px;
+    justify-content:space-between ;
+  }
+  .smPP{
+    width: 37px;
+    height:37px;
+    background-color: blueviolet;
+    
+  }
+  .kAd{
+    text-align: left;
+     color: black;
+     margin-left: 10px;
+    flex: 2;
+    }
+  .BtnTakip{
+   
+    color:    #00b8ff;
+    font-size:    14px;
+    font-weight:    700;
+    text-align:    center;
+    margin-right: 7px;
+
+    
+  }

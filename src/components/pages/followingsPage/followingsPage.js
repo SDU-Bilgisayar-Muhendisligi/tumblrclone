@@ -12,7 +12,13 @@ const FollowingPage = () => {
             <input className="search-barF" type="text" placeholder="Kullanıcı Adı" />
           </form>
                 
-          <div className='partB'>
+          <div className='followingContainer'>
+            <section className='followed'>
+              <div className='smPP'></div>
+              <div className='kAd'> <p>xYx</p></div>
+              <div className='BtnTakip'><p>Takip Et</p></div>
+            </section>
+
 
           </div>
         </div>
