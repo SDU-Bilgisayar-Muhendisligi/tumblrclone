@@ -4,8 +4,7 @@ import './App.css'
 
 import Navbar from './components/Navbar/Navbar';
 import HomePage from './components/pages/homePage';
-import LoginPage from './components/pages/login';
-import SignUpPage from './components/pages/signup';
+
 import Profile from './components/pages/profile';
 import FollowingPage from './components/pages/followingsPage/followingsPage';
 import LikesPage from './components/pages/likesPage/likesPage';

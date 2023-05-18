@@ -2,11 +2,11 @@ import React from "react"
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
 import Popup from "reactjs-popup"
-import Logo from "../icons/logo.png"
-import homeBtn from '../icons/1.png'
-import inboxBtn from '../icons/3.png'
-import accountBtn from '../icons/2.png'
-import postBtn from '../icons/post.png'
+import Logo from "../renes-icons/logo.png"
+import homeBtn from '../renes-icons/1.png'
+import inboxBtn from '../renes-icons/3.png'
+import accountBtn from '../renes-icons/2.png'
+import postBtn from '../renes-icons/post.png'
 import account from "./navbarDropdown";
 import "./NavBar.css"
 

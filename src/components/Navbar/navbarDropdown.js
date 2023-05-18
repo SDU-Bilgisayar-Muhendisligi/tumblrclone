@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from 'react-router-dom'
 
-import accBtn from '../icons/2.png'
+import accBtn from '../renes-icons/2.png'
 
 
 
