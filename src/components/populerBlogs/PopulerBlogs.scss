@@ -1,0 +1,94 @@
+.populer-blogs {
+  display: flex;
+  flex-direction: column;
+  background-color: #122943;
+  padding: 1px;
+  width: 340px;
+  border-radius: 6px;
+
+  .title {
+    font-size: 21px;
+    font-weight: 500;
+    padding: 13px;
+    border-bottom: 1px solid gray;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    cursor: pointer;
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 13px;
+
+      .item-left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+          width: 46px;
+          height: 46px;
+        }
+
+        .user-info {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+
+          .top {
+            font-size: 17px;
+            font-weight: bold;
+          }
+          .down {
+            color: rgb(247, 247, 247);
+          }
+        }
+      }
+
+      .item-right {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        span {
+          color: aqua;
+          cursor: pointer;
+
+          &:hover {
+            border-bottom: 1px solid aqua;
+          }
+        }
+
+        .cancel-icon {
+          cursor: pointer;
+          color: lightcyan;
+
+          &:hover {
+            color: white;
+          }
+        }
+      }
+
+      &:hover {
+        background-color: #3f3f3f;
+      }
+    }
+  }
+
+  .show-more {
+    padding: 13px;
+    text-align: center;
+    border-top: 1px solid gray;
+    color: aqua;
+    font-size: 18px;
+    cursor: pointer;
+
+    &:hover {
+      color: rgb(23, 156, 156);
+    }
+  }
+}

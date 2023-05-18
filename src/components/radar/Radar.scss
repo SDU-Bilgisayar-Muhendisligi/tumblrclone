@@ -1,0 +1,75 @@
+.radar {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  padding: 6px;
+  width: 340px;
+  border-radius: 6px;
+  margin-top: 40px;
+
+  .title {
+    padding: 13px;
+    font-size: 26px;
+  }
+  .radar-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .radar-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 6px;
+      background-color: #222222;
+
+      img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+      }
+
+      .username {
+        font-size: 17px;
+      }
+      .follow {
+        font-size: 18px;
+        color: aqua;
+      }
+      .uc-nokta {
+        font-weight: 600;
+        font-size: 28px;
+        margin-left: auto;
+      }
+    }
+    .radar-img-wrapper {
+      img {
+        width: 326px;
+        height: 600px;
+      }
+    }
+
+    .fire-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      font-size: 23px;
+      border-bottom: 1px solid gray;
+      padding: 8px 4px;
+    }
+
+    .radar-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px;
+
+      span {
+        border: 1px solid gray;
+        padding: 4px 6px;
+        font-size: 24px;
+        border-radius: 40px;
+      }
+    }
+  }
+}

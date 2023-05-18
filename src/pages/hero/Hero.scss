@@ -1,0 +1,103 @@
+.hero {
+  color: white;
+  margin-top: 50px;
+
+  .hero-container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+
+    .hero-left {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border-right: 1px solid gray;
+
+      .hero-titles {
+        display: flex;
+        align-items: center;
+        padding: 6px 6px 0 0;
+        border-bottom: 1px solid gray;
+        margin-right: 10px;
+
+        .active-title {
+          color: aqua;
+          border-bottom: 1px solid aqua;
+        }
+
+        h3 {
+          padding: 12px;
+          font-size: 18px;
+
+          &:hover {
+            background-color: gray;
+            cursor: pointer;
+          }
+        }
+
+        h4 {
+          padding: 12px 4px 12px 12px;
+          font-size: 18px;
+        }
+
+        .others {
+          position: relative;
+          display: flex;
+          align-items: center;
+
+          &:hover {
+            background-color: gray;
+            cursor: pointer;
+          }
+
+          .other-titles {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            border-radius: 4px;
+
+            width: 200px;
+            background-color: #222222;
+            top: 55px;
+            left: 0;
+
+            h5 {
+              font-weight: 300;
+              width: 100%;
+              text-align: center;
+              padding: 8px;
+              font-size: 16px;
+
+              &:hover {
+                background-color: #313131;
+              }
+            }
+          }
+        }
+
+        .titles-icons {
+          margin-left: auto;
+          display: flex;
+          gap: 6px;
+
+          .rect-icon {
+            color: gray;
+          }
+        }
+      }
+
+      .hero-today {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+      }
+    }
+
+    .hero-right {
+      flex: 1;
+      padding: 6px;
+    }
+  }
+}
