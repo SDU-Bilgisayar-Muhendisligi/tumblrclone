@@ -28,6 +28,10 @@ const SettingsPage = () => {
         <div className='leftSideF'>
           <div className='settingsContainer'>
             <h2 className='hesap'>Hesap</h2>
+            <section className='ayar kullA'>
+              <div><h3>Kullanıcı Adı</h3></div>
+              <div><p className='Pkull'>xXx</p></div>
+            </section>
             <section className='ayar eposta'>
               <div><h3>E-posta</h3></div>
               <div><p className='Pmail'>xXxXx@Xmail.com</p></div>

@@ -42,8 +42,14 @@
 .icon{
   cursor: pointer;
   margin: 0 4px ;
-  
 }
+.inbox{
+  margin-right: 3px;
+}
+.acc{
+  margin-left: 0px;
+  }
+
 .post{
   width: 45px;
   height: 35px;
@@ -83,6 +89,7 @@
   
   background-color: #001935;
 }
+
 .popup{
   background-color: white;
   color: black;

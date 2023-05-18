@@ -11,8 +11,9 @@ const UserPage = () => {
                 <h2 className='unfButton'> Follow/Unfollow </h2>
           </div>
           
+            <p className='postsBilgi userP' >(test post)Tüm Gönderilerin: </p>
           <section className='postListContainer'>
-            <p className='postsBilgi' >Tüm Gönderilerin: </p>
+          <div className='pp'></div>  
             <div className='post1'>
               <p>örnek post</p>
             </div>

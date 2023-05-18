@@ -30,7 +30,7 @@ border-color: rgba(0, 0, 0, 0.753);
 
 .post1{
     background-color: #FFFFFF;
-    width: 25rem; 
+    width: 30rem; 
     height: 20rem; 
     border-radius: 3px;
 
@@ -38,4 +38,18 @@ border-color: rgba(0, 0, 0, 0.753);
 .post1 p {
     color: black;
     text-align: center;
+}
+.userP{
+    min-width: 35rem;
+    
+}
+.pp{
+    width: 4rem;
+    height: 4rem;
+    background-color: violet;
+    margin-right: 16px;
+}
+.postListContainer{
+    display: flex;
+    
 }
