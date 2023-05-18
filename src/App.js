@@ -7,7 +7,7 @@ import HomePage from './components/pages/homePage';
 import LoginPage from './components/pages/login';
 import SignUpPage from './components/pages/signup';
 import Profile from './components/pages/profile';
-import FollowingsPage from './components/pages/followingsPage/followingsPage';
+import FollowingPage from './components/pages/followingsPage/followingsPage';
 import LikesPage from './components/pages/likesPage/likesPage';
 import InboxPage from './components/pages/inboxPage/inboxPage';
 import UserPage from './components/pages/userPage/userPage';
@@ -23,7 +23,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         
         <Route path='/profile' element={<Profile />} />
-        <Route path='/following' element={<FollowingsPage />} />
+        <Route path='/following' element={<FollowingPage />} />
         <Route path='/likes' element={<LikesPage />} />
         <Route path='/inbox' element={<InboxPage />} />
         <Route path='/user' element={<UserPage />} />

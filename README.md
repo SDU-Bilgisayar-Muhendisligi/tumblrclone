@@ -2,11 +2,11 @@
 
 ####to-do
 
-likes page 
+likes page +
 followings page ++
 inbox page ++
-settings page
-user page
+settings page  (eposta , parola , doğum tarihi  , hesabı sil )
+user page (  kullanıcı adı , profil foto  ,  tüm gönderiler  )
 navbar
 
 # Getting Started with Create React App

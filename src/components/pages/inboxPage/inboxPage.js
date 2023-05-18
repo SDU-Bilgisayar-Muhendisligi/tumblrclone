@@ -11,13 +11,10 @@ const InboxPage = () => {
                 <p>Daha fazla bilgi edin.</p>
               </div>
             </div>
-
-
-
-
           </div>
           
           <div className='rightSideCont'></div>
+          
       </div>
   
     );

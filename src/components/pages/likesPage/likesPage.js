@@ -1,10 +1,22 @@
 import React, { Component } from 'react'
-
+import './likesPage.css'
 
 const LikesPage = () => {
     return (
-      <div>
-          <h1>likes</h1>
+      <div className='homePageContainer'>
+        <div className='leftSideF'>
+          <section className='bos'>
+            <p>Gösterilecek gönderi yok.</p>
+          </section>
+        
+          <div className='partB'>
+
+          </div>
+        </div>
+
+        <div className='rightSideF'> 
+
+        </div>
       </div>
   
     );

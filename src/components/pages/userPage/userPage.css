@@ -1,0 +1,41 @@
+.UPContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 20px;
+   
+}
+
+
+.unfButton{
+    background-color:#24C2FF;
+    border: none;
+    border-radius: 20px;
+    
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    /* margin-left: 47%;*/
+    cursor: pointer;
+    flex: 1 1 auto;
+
+}
+.postsBilgi{
+padding-top: 8px;
+border-top: solid 2px ;
+border-color: rgba(0, 0, 0, 0.753);
+}
+
+.post1{
+    background-color: #FFFFFF;
+    width: 25rem; 
+    height: 20rem; 
+    border-radius: 3px;
+
+}
+.post1 p {
+    color: black;
+    text-align: center;
+}

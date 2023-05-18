@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './followings.css'
 
-const FollowingsPage = () => {
+const FollowingPage = () => {
     return (
       <div className='homePageContainer'>
         <div className='leftSideF'>
@@ -24,4 +24,4 @@ const FollowingsPage = () => {
     );
   };
 
-  export default FollowingsPage;
+  export default FollowingPage;

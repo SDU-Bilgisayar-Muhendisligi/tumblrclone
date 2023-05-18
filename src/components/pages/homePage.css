@@ -1,6 +1,6 @@
 
 .homePageContainer {
-    background-color: rgb(38, 10, 65);
+    /* background-color: rgb(38, 10, 65);*/ 
     display: flex;
     justify-content: center;
     margin: 6% 10%

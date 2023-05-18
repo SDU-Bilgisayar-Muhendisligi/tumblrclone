@@ -14,26 +14,7 @@
 }
 
 
-.navbar-links li{
 
-  list-style: none;
-  display:inline-block;
-  margin-top: 5px;
-
-  }
-  .navbar-links li a{
-    text-decoration: none;
-    color:#2F8D46;
-    font-size: 18px;
-    padding:8px 20px;
-    
-    }
-
-    .navbar-links li a:hover{
-      color:deepskyblue;
-      border-radius: 2px;
-      
-      }
       
 .nav-bar-left{
   display: flex;
@@ -44,9 +25,11 @@
 .nav-bar-right{
   display: flex;
   justify-content: flex-end;
-  margin: 3px 50px 0 0;
+  margin: 3px 50px 0px 0;
   grid-row: 1/2;
   max-height: 45px;
+  
+  
 }
 
 .logo-image{
@@ -54,6 +37,17 @@
   border: none;
   left: 2%;
   cursor: pointer;
+}
+
+.icon{
+  cursor: pointer;
+  margin: 0 4px ;
+  
+}
+.post{
+  width: 45px;
+  height: 35px;
+  border-radius: 4px;
 }
 
 .searchNavBar {
@@ -80,4 +74,89 @@
   position: relative;
   top: 30%;
   left: 5%;
+}
+
+.account-button {
+  /* border-radius: 2rem; */
+  border: none;
+  
+  
+  background-color: #041c34;
+}
+.popup{
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,.5);
+  width: 240px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ULpopup{
+  list-style-type:none;
+  
+  flex-direction: column;
+  margin-block-start: 0;
+  margin-inline-start: 0px;
+  padding-inline-start: 6px;/* 40px*/
+  margin: 0;
+  padding: 0;
+  /*
+  vertical-align: baseline;
+  display: block;
+  */
+}
+.text-link{
+  text-decoration: none;
+  color: black;
+  width: 220px;
+ 
+  padding: 10px 0;
+}
+
+.listE{
+  cursor: pointer;
+  list-style: none;
+  padding: 0px 10px;
+
+  box-sizing: border-box;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  
+}
+.listE:hover{
+  background-color: gainsboro;
+}
+
+
+.jF6A2{
+  display: inline-block;
+  text-align: right;
+}
+
+.BTNoturum{
+  background-color:#00b8ff;
+  border-radius:3px;
+  border: none;
+  cursor: pointer;
+  padding:6px 15px;
+ 
+  position: relative;
+  bottom: 14px;
+
+  margin-left: 10px;  
+/*
+align-items:center
+background-color:#00b8ff
+border-radius:3px
+display:flex
+font-family:Favorit
+font-weight:700
+justify-content:center
+line-height:24px
+padding:6px 15px
+*/
 }
