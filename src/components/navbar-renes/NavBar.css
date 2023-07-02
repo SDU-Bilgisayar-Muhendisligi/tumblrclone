@@ -1,0 +1,179 @@
+/* navbar */
+.navBarContainer {
+  display: grid;
+  grid-template-rows: 1fr;
+  padding-top: 5px;
+  background-color: #001935;
+  border-bottom: 1px solid gray;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1;
+}
+
+
+
+      
+.nav-bar-left{
+  display: flex;
+  flex-wrap: nowrap;
+  grid-row: 1/2;
+}
+
+.nav-bar-right{
+  display: flex;
+  justify-content: flex-end;
+  margin: 3px 50px 0px 0;
+  grid-row: 1/2;
+  max-height: 45px;
+  
+  
+}
+
+.logo-image{
+  background: transparent;
+  border: none;
+  left: 2%;
+  cursor: pointer;
+}
+
+.icon{
+  cursor: pointer;
+  margin: 0 4px ;
+}
+.inbox{
+  margin-right: 3px;
+}
+.acc{
+  margin-left: 0px;
+  }
+
+.post{
+  width: 45px;
+  height: 35px;
+  border-radius: 4px;
+}
+
+.searchNavBar {
+  padding-top: 5px;
+  padding-bottom: 7px;
+  width: 100%;
+}
+.search-bar {
+  background-color: #758494;
+  color: ghostwhite;
+  position: relative;
+  padding-left: 10px;
+  font-size: 16px;
+  /* top: 5%;
+  left: 9%; */
+  height: 35px;
+  width:55%;
+  min-width: 300px;
+  border-radius: 3px;
+  border: none
+}
+.search-bar::placeholder {
+  
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 0;
+  
+}
+.search-bar:focus {
+  background-color: antiquewhite;
+  color: black;
+  
+}
+
+.search-submit {
+  position: relative;
+  top: 30%;
+  left: 5%;
+}
+
+.account-button {
+  /* border-radius: 2rem; */
+  border: none;
+  
+  
+  background-color: #001935;
+}
+
+.popup{
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,.5);
+  width: 240px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ULpopup{
+  list-style-type:none;
+  
+  flex-direction: column;
+  margin-block-start: 0;
+  margin-inline-start: 0px;
+  padding-inline-start: 6px;/* 40px*/
+  margin: 0;
+  padding: 0;
+  /*
+  vertical-align: baseline;
+  display: block;
+  */
+}
+.text-link{
+  text-decoration: none;
+  color: black;
+  width: 220px;
+ 
+  padding: 10px 0;
+}
+
+.listE{
+  cursor: pointer;
+  list-style: none;
+  padding: 0px 10px;
+
+  box-sizing: border-box;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  
+}
+.listE:hover{
+  background-color: gainsboro;
+}
+
+
+.jF6A2{
+  display: inline-block;
+  text-align: right;
+}
+
+.BTNoturum{
+  background-color: #00cf35;
+  border-radius:3px;
+  border: none;
+  cursor: pointer;
+  padding:10px 14px;
+  font-weight: bold;
+  position: relative;
+  bottom: 14px;
+
+  margin-left: 10px;  
+/*
+align-items:center
+background-color:#00b8ff
+border-radius:3px
+display:flex
+font-family:Favorit
+font-weight:700
+justify-content:center
+line-height:24px
+padding:6px 15px
+*/
+}

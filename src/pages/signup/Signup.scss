@@ -1,0 +1,123 @@
+.table{
+    background-color: #08172C;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+    .tumblrrr{
+        cursor: pointer;
+        color: white;
+    }
+
+    .mail-pw{
+        background-color: #08172C;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 400px;
+        height: 115px;
+        gap: 6px;
+    }
+    .mail{
+        margin-top: 5px;
+        width: 380px;
+        height: 45px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+    }
+    .pw{
+        width: 380px;
+        height: 45px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+     }
+     ::placeholder{
+        
+        display: flex;
+        padding-left: 20px;
+     }
+     .text{
+        margin-left: 13px;
+        color: white;
+        text-align: center;
+        width: 370px;
+        font-size: 13px;
+        line-height: 22px;
+
+     }
+     .gap-setter{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+     }
+     .login{
+
+        background-color: #00b8ff;
+        width: 380px;
+        height: 43px;
+        border-radius: 3px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+     }
+     .pw-res{
+        font-size: large;
+        margin-top: 10px;
+        color: white;
+     }
+     .veya{
+        margin-top: 15px;
+        display: flex;
+        color: white;
+        align-items: center;
+        column-gap: 10px;
+     }
+     .veya::after, .veya::before{
+        content: "";
+        height: 1px;
+        display: block;
+        background-color: white;
+        width: 165px;
+        margin-top: 4px;
+     }
+     .google{
+        margin-top: 20px    ;
+        background-color: white;
+        width: 380px;
+        height: 43px;
+        border-radius: 3px;
+        border: none;
+        outline: none;
+        font-size: medium;
+        font-weight: bold;
+        cursor: pointer;
+     }
+
+     .googleicon2{   
+
+      position: absolute;
+      top: 33px;
+      left: 80px;   
+     }
+     .googlex{
+      position: relative;
+     }
+
+     .ru-new{
+        margin-top: 10px;
+        color: white;
+     }
+     .kaydol{
+        color: white;
+     }
+    
+     
+    

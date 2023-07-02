@@ -1,0 +1,210 @@
+.blog-card {
+  display: flex;
+  gap: 12px;
+  margin-right: 16px;
+
+  .card-image-wrapper {
+    img {
+      width: 70px;
+      position: sticky;
+      top: 64px;
+    }
+  }
+
+  .blog-card-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    background-color: #122943;
+    border-radius: 4px;
+    padding: 18px 24px;
+
+    .note-open {
+      border-top: 1px solid gray;
+      display: flex;
+      flex-direction: column;
+      padding: 12px;
+
+      .note-open-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid gray;
+        padding-bottom: 12px;
+
+        .icons {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+        }
+      }
+
+      .note-open-main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+        padding-bottom: 16px;
+        gap: 20px;
+        border-bottom: 1px solid gray;
+
+        .note-write {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+          }
+
+          input {
+            padding: 10px;
+            border-radius: 10px;
+            width: 100%;
+            background-color: #222222;
+            border: 1px solid gray;
+            outline: none;
+            color: white;
+          }
+        }
+
+        .note-open-user {
+          display: flex;
+          gap: 6px;
+
+          img {
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+          }
+
+          .infos {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            gap: 6px;
+
+            .name {
+              font-weight: bold;
+            }
+          }
+        }
+
+        .note-footer {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+
+        p {
+          color: rgb(221, 221, 221);
+        }
+      }
+    }
+  }
+
+  .card-header {
+    display: flex;
+    gap: 6px;
+    width: 480px;
+  }
+
+  .more-icon {
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    &:hover {
+      background-color: gray;
+      cursor: pointer;
+    }
+  }
+
+  .other-titles {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    gap: 2px;
+    width: 200px;
+    background-color: #222222;
+    top: 40px;
+    h5 {
+      font-weight: 300;
+      width: 100%;
+      text-align: center;
+      padding: 8px;
+      font-size: 16px;
+
+      &:hover {
+        background-color: #313131;
+      }
+    }
+    h4 {
+      font-weight: 700;
+      width: 100%;
+      text-align: center;
+      padding: 8px;
+      font-size: 16px;
+
+      &:hover {
+        background-color: #313131;
+      }
+    }
+    .delete {
+      font-weight: 300;
+      color: rgb(255, 0, 0);
+      width: 100%;
+      text-align: center;
+      padding: 8px;
+      font-size: 16px;
+
+      &:hover {
+        background-color: #313131;
+      }
+    }
+
+    .follow {
+      color: aqua;
+    }
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .card-desc {
+    line-height: 24px;
+  }
+
+  .card-tags {
+    line-height: 22px;
+  }
+
+  // CARD FOOTER
+  .card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-note {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+
+  .footer-icons {
+    position: sticky;
+    display: flex;
+    gap: 8px;
+  }
+}

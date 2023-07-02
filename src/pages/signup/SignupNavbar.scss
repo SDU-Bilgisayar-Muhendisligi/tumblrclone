@@ -1,0 +1,78 @@
+.nav{
+    background-color: #08172C;
+    height: 54px;
+
+
+
+    .navbarWrapper{
+        background-color: #08172C;
+        height: 34px;
+        width: 1520px;
+        margin-top: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        }
+
+    .navbar-left{
+
+        display: flex;
+    }    
+
+    .inputWrapper{
+
+        width: 530px;
+        height: 34px;
+        margin-top: 10px;
+
+        input{
+            background-color: #405368;
+            opacity: 80%;
+            width: 480px;
+            height: 34px;
+            border-radius: 4px;
+            border: none;
+            outline: none;
+
+            &:focus{
+                background-color: white;
+                opacity: 100%;
+            }
+        }
+
+            ::placeholder{
+                padding-left: 8px;
+                font-size: medium;
+                position: absolute;
+                top: 9px;
+                left: 36px;
+                color: #BCC3CA;                
+            }
+        
+        .icon{
+            color: #BCC3CA;
+            position: absolute;
+          top: 16px;
+          left: 76px;
+        }
+    }
+    .logo{
+        outline: none;
+        border: none;
+        display: flex;
+        margin-left: auto;
+    }
+    .sign-up-button{
+        cursor: pointer;
+        line-height: 1.5;
+        background-color: #00cf35;
+        font-size: 1rem;
+        width: 112px;
+        height: 36px;
+        border-radius: 3px;
+        border: none;
+        outline: none;
+        
+    }
+    
+}

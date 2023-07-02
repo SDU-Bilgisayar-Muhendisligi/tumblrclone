@@ -1,0 +1,49 @@
+.inboxContainer {
+    /* background-color: rgb(38, 10, 65); */
+    background-color: #122943;
+    display: flex;
+    justify-content: center;
+    margin: 6% 25%
+    
+  }
+
+
+  .bosIleti{
+    margin: 5%;
+    
+    justify-content: center;
+    display:grid;
+    flex-direction:column;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    
+  }
+
+  .bilgi{
+    justify-content: center;
+    padding: 25% 50% ;
+    display: grid;
+    align-items:center ;
+
+    
+  }
+
+
+.bilgi h4 {
+    color: white;
+    text-align:center;
+    margin-bottom: 1px;
+    width: 200px;
+    margin: 5px 0;
+    
+    
+    
+}
+.bilgi p {
+  color: white;
+    text-align:center;
+    width: 200px;
+    
+    
+    
+}

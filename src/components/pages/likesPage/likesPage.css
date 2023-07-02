@@ -1,0 +1,20 @@
+
+.bos p{ 
+    font-size: 26px;
+    
+    color: white;
+   
+}
+.bos{
+    display: flex;
+    flex-direction: row;
+}
+
+.postListContainer{
+    margin-top: 15px;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}

@@ -1,0 +1,101 @@
+.homePageContainer {
+  /* background-color: rgb(38, 10, 65);*/ 
+  display: flex;
+  justify-content: center;
+  margin: 6% 10%;
+  
+  
+}
+
+.partA{
+    display: flex;
+    
+}
+
+.partA p{
+  color: white;
+  font-size: 18px;
+  margin: 15px 0 ;
+}
+
+
+.rightSideF {
+   
+    width: 30%;
+    margin-left: 10px;
+  }
+  
+.leftSideF {
+    
+    margin: 48px 10px;
+    width: 60%;
+  }
+
+  
+.search-barF {
+    background-color: #758494;
+    color: ghostwhite;
+    position: relative;
+    padding:8px 10px ;
+    font-size: 16px;
+    /* top: 5%;
+    left: 9%; */
+    height: 40px;
+    width: 300px;
+    border-radius: 3px;
+    border: none
+    
+  }
+  .search-barF:focus {
+    background-color: antiquewhite;
+    color: black;
+  }
+
+  
+  .search-barF::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0%;
+    
+  }
+  .followingContainer{
+    margin-top: 14px;
+    
+  }
+
+  .followed{
+    margin: 14px 0px;
+    width: 100%;
+    min-width: 320px;;
+    max-width: 35rem;
+    height:54px;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    display:flex;
+    align-content: center;
+    align-items: center;
+    padding: 5px;
+    justify-content:space-between ;
+  }
+  .smPP{
+    width: 37px;
+    height:37px;
+    background-color: blueviolet;
+    
+  }
+  .kAd{
+    text-align: left;
+     color: black;
+     margin-left: 10px;
+    flex: 2;
+    }
+  .BtnTakip{
+   
+    color:    #00b8ff;
+    font-size:    14px;
+    font-weight:    700;
+    text-align:    center;
+    margin-right: 7px;
+
+    
+  }

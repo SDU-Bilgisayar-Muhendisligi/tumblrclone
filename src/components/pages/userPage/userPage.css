@@ -1,0 +1,38 @@
+.UPContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 20px;
+
+}
+.PA{
+    margin: 25px;
+    
+}
+.UPusername{
+    color: white;
+}
+.unfButton{
+    background-color:#24C2FF;
+    border: none;
+    border-radius: 20px;
+    
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    /* margin-left: 47%;*/
+    cursor: pointer;
+    flex: 1 1 auto;
+}
+.bilgiUser{
+color: #FFFFFF;
+
+display: block;
+min-width: 35rem;
+padding-top: 8px;
+padding-left: 12px;
+margin-bottom: 10px;
+}
+

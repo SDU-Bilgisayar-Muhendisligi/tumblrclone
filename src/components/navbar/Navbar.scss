@@ -1,0 +1,68 @@
+.nav {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 50;
+  border-bottom: 1px solid gray;
+
+  .navbarWrapper {
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+
+    .sol-taraf {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      span {
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+      }
+
+      .inputWrapper {
+        position: relative;
+
+        input {
+          padding: 9px;
+          padding-left: 30px;
+          border-radius: 4px;
+          outline: none;
+          border: none;
+          width: 400px;
+          background-color: #404040;
+          color: white;
+
+          &:focus {
+            background-color: #303030;
+          }
+        }
+
+        .icon {
+          position: absolute;
+          top: 6px;
+          left: 6px;
+          color: white;
+        }
+      }
+    }
+
+    .signBtn {
+      background-color: #00cf35;
+      padding: 10px 14px;
+      outline: none;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
